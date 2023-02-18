@@ -1,0 +1,51 @@
+.cell_container {
+	border: 1px skyblue solid;
+	height: 100px;
+	width: 100px;
+}
+
+.cell_container div {
+	color: gray;
+}
+
+.cell {
+	color: skyblue;
+}
+
+.string {
+	display: block;
+	width: 100px;
+	margin: 0px;
+}
+
+#title {
+	font-style: italic;
+	transition: 1s all;
+	font-size: 50px;
+}
+
+#title:hover {
+	color: red;
+	font-size: 75px;
+}
+
+#text {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+content {
+	margin: 0px auto;
+	display: flex;
+	width: 310px;
+}
+
+input {
+	width: 200px;
+}
+
+.input {
+	width: 210px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
